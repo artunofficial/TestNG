@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <parameter name="url" value="https://tutorialsninja.com/demo"></parameter>
+   <parameter name="email" value="seleniumpanda1@gmail.com"></parameter>
+    <parameter name="password" value="Selenium@123"></parameter>
+  
+    <parameter name="firstname" value="Jesus"></parameter>
+   <parameter name="lastname" value="Christian"></parameter>
+    <parameter name="telephone" value="911"></parameter>
+      <parameter name="passwordR" value="jesusinyourheart"></parameter>
+   <parameter name="confirmpasswordR" value="jesusinyourheart"></parameter>
+
+  
+    <classes>
+      <class name="com.TestNG.Day17_Feb_13_B_Parameterization_Of_Test.A_Parameterization_TestNG_Xml_File"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

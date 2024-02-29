@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Class Assignment Assertion Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.java.Day12_Jan_24_A_Assertions_In_TestNG.G_TN_ClassAssignment_Assertions">
+        <methods>
+          <include name="registerWithExistingEmail"/>
+          <include name="registerAssertions"/>
+          <include name="registerWithMandatoryDetails"/>
+          <include name="tearDown"/>
+          <include name="registerWithAllDetails"/>
+        </methods>
+      </class> <!-- com.java.Day12_Jan_24_A_Assertions_In_TestNG.G_TN_ClassAssignment_Assertions -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Class Assignment Assertion Suite] -->
